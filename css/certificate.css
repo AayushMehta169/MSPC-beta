@@ -166,3 +166,22 @@ html {
 	color: white;
 	mix-blend-mode: lighten;
 }
+
+.darkmode-layer {
+	background: #4d4d4d !important;
+	mix-blend-mode: normal !important;
+}
+
+.darkmode--activated .regno{
+	
+	mix-blend-mode: difference;
+	background: none;
+}
+.darkmode--activated .events_btn{
+	mix-blend-mode: lighten;
+}
+
+.darkmode--activated ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: white;
+	opacity: 1; /* Firefox */
+  }
