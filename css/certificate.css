@@ -167,6 +167,7 @@ html {
 	mix-blend-mode: lighten;
 }
 
+
 .darkmode-layer {
 	background: #4d4d4d !important;
 	mix-blend-mode: normal !important;
@@ -185,3 +186,4 @@ html {
 	color: white;
 	opacity: 1; /* Firefox */
   }
+
