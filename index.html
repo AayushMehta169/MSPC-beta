@@ -62,7 +62,7 @@
   <div class="centered-logo">
     <!-- <img src="img\logo-blue.svg" class="lm" id="light-mode" alt="our logo">
     <img src="img\dark_svg\Logo.svg" class="dm" id="dark-mode" alt="our logo"> -->
-    <img src="img\logo-blue.svg" class="lm1" alt="our logo">
+    <img src="img\logo-blue.svg" id="logo_main" class="lm1" alt="our logo">
     <!-- <img src="img\dark_svg\Logo.svg" class="dm1" alt="our logo"> -->
   </div>
   <div class="centered1">
@@ -182,6 +182,8 @@
     $("#mobview2").attr("src","./img/dark_svg/PR.svg");
     $("#mobview3").attr("src","./img/dark_svg/Spon.svg");
     $("#mobview4").attr("src","./img/dark_svg/Tech.svg");
+    $("#logo_main").attr("src","./img/dark_svg/Logo.svg");
+    
   }
   else{
     $("#test").attr("src","./img/about_us.svg");
@@ -190,6 +192,8 @@
     $("#mobview2").attr("src","./img/domain/PR Vector.svg");
     $("#mobview3").attr("src","./img/domain/Sponsorship Vector.svg");
     $("#mobview4").attr("src","./img/domain/Tech Vector.svg");
+    $("#logo_main").attr("src","./img/logo-blue.svg");
+
   }
   
 $( ".darkmode-toggle" ).wrap( "<div class='changesvg'></div>" );
@@ -201,6 +205,8 @@ $(".changesvg").click(function(){
     $("#mobview2").attr("src","./img/dark_svg/PR.svg");
     $("#mobview3").attr("src","./img/dark_svg/Spon.svg");
     $("#mobview4").attr("src","./img/dark_svg/Tech.svg");
+    $("#logo_main").attr("src","./img/dark_svg/Logo.svg");
+ 
   }
   else{
     $("#test").attr("src","./img/about_us.svg");
@@ -209,6 +215,8 @@ $(".changesvg").click(function(){
     $("#mobview2").attr("src","./img/domain/PR Vector.svg");
     $("#mobview3").attr("src","./img/domain/Sponsorship Vector.svg");
     $("#mobview4").attr("src","./img/domain/Tech Vector.svg");
+    $("#logo_main").attr("src","./img/logo-blue.svg");
+    
   }
 });
 
